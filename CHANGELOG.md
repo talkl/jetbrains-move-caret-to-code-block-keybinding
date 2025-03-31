@@ -1,9 +1,16 @@
 # Change Log
 
-All notable changes to the "jetbrains-move-caret-to-code-block-keybinding" extension will be documented in this file.
+All notable changes to the "JetBrains Move Caret to Code Block Keybinding" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.0.1] - 2024-03-21
 
-## [Unreleased]
-
+### Added
 - Initial release
+- Added keybindings for moving caret to code block start/end:
+  - `Ctrl+Alt+[` (Windows/Linux) / `Cmd+Alt+[` (macOS) to move to block start
+  - `Ctrl+Alt+]` (Windows/Linux) / `Cmd+Alt+]` (macOS) to move to block end
+- Added commands:
+  - `jetbrains-move-caret-to-code-block-keybinding.moveToBlockStart`
+  - `jetbrains-move-caret-to-code-block-keybinding.moveToBlockEnd`
+
+[0.0.1]: https://github.com/talkl/jetbrains-move-caret-to-code-block-keybinding/releases/tag/v0.0.1
