@@ -3,6 +3,7 @@
   "displayName": "JetBrains Move Caret to Code Block Keybinding",
   "description": "JetBrains Move Caret to Code Block Keybinding",
   "version": "0.0.1",
+  "publisher": "TalKleiner",
   "icon": "icon.png",
   "sponsor": {
     "url": "https://github.com/sponsors/talkl"
