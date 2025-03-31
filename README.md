@@ -9,18 +9,9 @@ This extension provides a key shortcut to navigate between start and end of code
 
 ## Supported Languages
 
-- Java
-- C#
-- C++
-- JavaScript/TypeScript
-- Python (with curly braces)
-- PHP
-- Ruby (with curly braces)
-- Go
-- Rust
-- Swift
-- Kotlin
-- Scala
+- JavaScript/TypeScript (tested and verified)
+- Other languages may work but are not officially tested yet
+- More language support coming soon!
 
 ## Demo
 
@@ -34,7 +25,6 @@ This extension uses intelligent bracket matching to identify code blocks. It:
 - Handles nested blocks by tracking bracket depth
 - Ignores brackets that appear inside strings or comments
 - Supports finding parent blocks when already at a block boundary
-- Works with any language that uses curly braces for code blocks
 
 ## Requirements
 

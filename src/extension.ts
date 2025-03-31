@@ -5,6 +5,7 @@ function isInsideString(line: string, charIndex: number): boolean {
     let inString = false;
     let inSingleQuote = false;
     let inDoubleQuote = false;
+    let inTemplateLiteral = false;
     let escapeNext = false;
 
     for (let i = 0; i <= charIndex; i++) {
@@ -16,12 +17,15 @@ function isInsideString(line: string, charIndex: number): boolean {
         const char = line[i];
         if (char === '\\') {
             escapeNext = true;
-        } else if (char === '"' && !inSingleQuote) {
+        } else if (char === '"' && !inSingleQuote && !inTemplateLiteral) {
             inDoubleQuote = !inDoubleQuote;
             inString = inDoubleQuote;
-        } else if (char === "'" && !inDoubleQuote) {
+        } else if (char === "'" && !inDoubleQuote && !inTemplateLiteral) {
             inSingleQuote = !inSingleQuote;
             inString = inSingleQuote;
+        } else if (char === '`') {
+            inTemplateLiteral = !inTemplateLiteral;
+            inString = inTemplateLiteral;
         }
     }
     return inString;
