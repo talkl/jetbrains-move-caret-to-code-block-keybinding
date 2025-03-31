@@ -15,7 +15,7 @@ This extension provides a key shortcut to navigate between start and end of code
 
 ## Demo
 
-[Demo GIF will be added here]
+![Demo](https://dwrom5p8fgbav.cloudfront.net/jetbrains-move-caret-to-code-block-keybinding.gif)
 
 ## How it Works
 
