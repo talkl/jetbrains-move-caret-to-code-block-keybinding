@@ -2,7 +2,7 @@
   "name": "jetbrains-move-caret-to-code-block-keybinding",
   "displayName": "JetBrains Move Caret to Code Block Keybinding",
   "description": "JetBrains Move Caret to Code Block Keybinding",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "TalKleiner",
   "icon": "icon.png",
   "sponsor": {
@@ -14,8 +14,8 @@
   },
   "pricing": "Free",
   "engines": {
-		"vscode": "^1.74.0"
-	},
+    "vscode": "^1.74.0"
+  },
   "categories": [
     "Keymaps"
   ],
