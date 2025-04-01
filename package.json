@@ -20,6 +20,7 @@
     "Keymaps"
   ],
   "galleryBanner": {
+    "theme": "dark",
     "color": "#1E1E1E"
   },
   "activationEvents": [

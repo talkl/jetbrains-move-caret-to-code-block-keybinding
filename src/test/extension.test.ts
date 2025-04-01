@@ -7,7 +7,6 @@ import * as os from 'os';
 /* lines and columns are 0 indexed */
 
 suite('Extension Test Suite', function() {
-	this.timeout(1000_000);
 	let workspaceFolder: vscode.WorkspaceFolder;
 	let testFilePath: string;
 	let editor: vscode.TextEditor;
